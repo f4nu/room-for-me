@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Room For Me
+## Notes: Hides Looking For Group listings that have no open slot for the roles you picked.
+## Author: Fanu
+## Version: 1.0.0
+## SavedVariables: RoomForMeDB
+
+RoomForMe.lua
