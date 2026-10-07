@@ -10,10 +10,11 @@ Install: copy `RoomForMe` into `Interface/AddOns`.
 
 ## Screenshots
 
-Filter off: groups already holding three DPS are listed.
+#### Examples from a DPS point of view:
+##### Filter off: groups already holding three DPS are listed.
 
 ![Filter off](curseforge/filter-off.jpg)
 
-Filter on, playing DPS: those groups are gone.
+##### Filter on, playing DPS: those groups are gone.
 
 ![Filter on](curseforge/filter-on.jpg)
