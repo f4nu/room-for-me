@@ -1,3 +1,5 @@
+<img src="art/icon-400.png" width="96" align="right">
+
 # Room For Me
 
 WoW: Forever addon. Hides Looking For Group listings with no open slot for the roles you ticked.

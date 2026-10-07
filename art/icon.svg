@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bronze" cx="40%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#f2d38a"/>
+      <stop offset="0.45" stop-color="#b8863b"/>
+      <stop offset="1" stop-color="#4a2f10"/>
+    </radialGradient>
+    <radialGradient id="bowl" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#2b2a20"/>
+      <stop offset="1" stop-color="#050504"/>
+    </radialGradient>
+    <radialGradient id="iris" cx="50%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#f4ff9a"/>
+      <stop offset="0.3" stop-color="#b6f03a"/>
+      <stop offset="0.7" stop-color="#4fa810"/>
+      <stop offset="1" stop-color="#173f04"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6a0"/>
+      <stop offset="0.5" stop-color="#ffcc12"/>
+      <stop offset="1" stop-color="#c77800"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <circle cx="256" cy="256" r="244" fill="url(#bronze)" stroke="#1e1206" stroke-width="10"/>
+  <circle cx="256" cy="256" r="196" fill="url(#bowl)" stroke="#1e1206" stroke-width="10"/>
+
+  <path d="M 92 262 Q 256 104 420 262 Q 256 420 92 262 Z" fill="#7bdc1e" opacity="0.55" filter="url(#glow)"/>
+  <path d="M 92 262 Q 256 104 420 262 Q 256 420 92 262 Z" fill="url(#iris)" stroke="#0d2202" stroke-width="8"/>
+  <ellipse cx="256" cy="262" rx="20" ry="74" fill="#050a02"/>
+  <ellipse cx="226" cy="226" rx="16" ry="10" fill="#ffffff" opacity="0.7" transform="rotate(-30 226 226)"/>
+
+  <g stroke="#2a1500" stroke-width="12" stroke-linejoin="round" fill="url(#gold)">
+    <path d="M 372 16 L 452 16 L 432 160 L 392 160 Z"/>
+    <circle cx="412" cy="204" r="27"/>
+  </g>
+</svg>
