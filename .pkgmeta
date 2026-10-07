@@ -1,0 +1,6 @@
+package-as: RoomForMe
+
+ignore:
+  - art
+  - curseforge
+  - README.md

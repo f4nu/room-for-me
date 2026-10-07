@@ -6,7 +6,7 @@ WoW: Forever addon. Hides Looking For Group listings with no open slot for the r
 
 Toggle: gear menu in the LFG window, or `/rfm`.
 
-Install: copy `RoomForMe` into `Interface/AddOns`.
+Install: from CurseForge, or copy this repo into `Interface/AddOns/RoomForMe`.
 
 ## Screenshots
 

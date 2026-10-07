@@ -1,4 +1,4 @@
-"""Render icon.svg: icon-400.png for CurseForge, ../RoomForMe/icon.tga for the in-game addon list."""
+"""Render icon.svg: icon-400.png for CurseForge, ../icon.tga for the in-game addon list."""
 import io, pathlib
 from PIL import Image
 from playwright.sync_api import sync_playwright
@@ -17,5 +17,5 @@ def render(browser, size):
 with sync_playwright() as p:
     browser = p.chromium.launch()
     render(browser, 400).save(here / "icon-400.png")
-    render(browser, 64).convert("RGBA").save(here.parent / "RoomForMe" / "icon.tga")
+    render(browser, 64).convert("RGBA").save(here.parent / "icon.tga")
     browser.close()
