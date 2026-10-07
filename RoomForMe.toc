@@ -4,6 +4,7 @@
 ## Author: Fanu
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\RoomForMe\icon
+## X-Curse-Project-ID: 1731797
 ## SavedVariables: RoomForMeDB
 
 RoomForMe.lua
