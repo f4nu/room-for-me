@@ -1,24 +1,36 @@
 # Room For Me
 
-Hides groups in the **Looking For Group** window that have no open slot for your role.
+**Only see the groups you can actually join.**
 
-A dungeon group needs 1 tank, 1 healer and 3 DPS. As a DPS you don't need to see a group that already has three, and as a tank you don't need one that already has a tank. Blizzard's list only moves those groups further down; Room For Me removes them, so what's left is what you can actually join.
+Hides Looking For Group listings with no open slot for your role.
 
-## How it works
+![Filter on](https://raw.githubusercontent.com/f4nu/room-for-me/main/curseforge/filter-on.jpg)
 
-- Uses the roles you ticked in the group finder. If you can fill more than one, a group stays if it has room for any of them.
-- Only groups are filtered. Solo players and your own listing are always shown.
-- Groups that don't track roles are left alone.
-- If every group is filtered out, the window tells you so instead of showing an empty list.
+## Why
 
-## Turning it on and off
+A dungeon group takes 1 tank, 1 healer and 3 DPS. Blizzard's list only pushes full-for-you groups further down. Room For Me takes them out, so you stop whispering groups that already have three DPS.
 
-- On by default.
-- Tick or untick **Hide groups with no room for my role** in the gear menu at the top right of the Looking For Group window.
-- Or type `/rfm`.
+## Features
 
-The setting is saved between sessions.
+- **Uses your ticked roles**: tank, healer, DPS. Tick more than one and a group stays if it has room for any of them.
+- **Groups only**: solo players, your own listing and groups that don't track roles are always shown.
+- **No empty list confusion**: if everything is filtered out, the window says so.
+- **One click to toggle**: gear menu at the top right of the LFG window, or `/rfm`. Saved between sessions.
 
-## Compatibility
+## Before and after
 
-Made for WoW: Forever. No dependencies, no options panel.
+As a DPS, filter off: groups with three DPS already are listed.
+
+![Filter off](https://raw.githubusercontent.com/f4nu/room-for-me/main/curseforge/filter-off.jpg)
+
+Filter on: they're gone.
+
+![Filter on](https://raw.githubusercontent.com/f4nu/room-for-me/main/curseforge/filter-on.jpg)
+
+## Setup
+
+Nothing to set up. On by default. No options panel, no dependencies.
+
+## Bugs and ideas
+
+[GitHub issues](https://github.com/f4nu/room-for-me/issues)
